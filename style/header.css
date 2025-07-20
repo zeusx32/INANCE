@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 12px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
+
+header h1{
+    padding-left: 3%;
+    font-size: 23px;
+    color: var(--black-blue);
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    padding: 0 30px 0 0;
+}
+
+header a{
+    color: var(--black-blue);
+    transition: color 0.2s;
+}
+
+header a:hover{
+    color: var(--text-hover);
+}
+

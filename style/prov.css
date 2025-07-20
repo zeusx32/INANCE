@@ -1,0 +1,39 @@
+.prov-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 700px;
+    padding: 0 50px;
+}
+
+.p-left-part{
+    width: 40%;
+    position: relative;
+    padding-left: 30px;
+}
+
+.p-left-part h2{
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: var(--black-blue);
+}
+
+.p-left-part p{
+    margin-bottom: 20px;
+    line-height: 23px;
+    font-size: 17px;
+    color: var(--black-blue);
+}
+
+.p-right-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.p-right-div img{
+    width: 100%;
+}
+

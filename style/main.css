@@ -1,0 +1,84 @@
+.main-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    height: 680px;
+}
+
+#right-div{
+    flex-direction: row-reverse;
+}
+
+.left-part{
+    width: 60%;
+    position: relative;
+}
+
+.left-part h2{
+    margin-bottom: 20px;
+    font-size: 55px;
+    width: 40%;
+    color: var(--black-blue);
+}
+
+.about-h2::after{
+    content: " ";
+    width: 240px;
+    height: 7px;
+    position: absolute;
+    background-color: var(--blue);
+    bottom: 145px;
+    border-radius: 10px;
+    left: 0;
+}
+
+.p-main-div{
+    margin-bottom: 20px;
+    width: 75%;
+    line-height: 23px;
+    font-size: 17px;
+    color: var(--black-blue);
+}
+
+.blue-p{
+    color: var(--black-blue);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.right-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.right-div img{
+    height: 100%;
+}
+
+.blue-but, .white-but{
+    background-color: transparent;
+    width: 120px;
+    height: 45px;
+    border-radius: 7px;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.white-but{
+    border: 2px solid var(--white-blue);
+    color: var(--white-blue);
+}
+
+.blue-but:hover{
+    color: var(--white-blue);
+    background-color: var(--blue);
+}
+
+.white-but:hover{
+    color: var(--blue);
+    background-color: var(--white-blue);
+}
